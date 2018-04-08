@@ -85,9 +85,9 @@
 			children = (
 				135AC118207A3E73000DAEC9 /* Contacts+CoreDataClass.swift */,
 				135AC119207A3E73000DAEC9 /* Contacts+CoreDataProperties.swift */,
-				135AC0E2207A3A93000DAEC9 /* contacts */,
-				135AC0FA207A3A95000DAEC9 /* contactsTests */,
-				135AC105207A3A95000DAEC9 /* contactsUITests */,
+				135AC0E2207A3A93000DAEC9 /* Contacts */,
+				135AC0FA207A3A95000DAEC9 /* ContactsTests */,
+				135AC105207A3A95000DAEC9 /* ContactsUITests */,
 				135AC0E1207A3A93000DAEC9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -102,7 +102,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		135AC0E2207A3A93000DAEC9 /* contacts */ = {
+		135AC0E2207A3A93000DAEC9 /* Contacts */ = {
 			isa = PBXGroup;
 			children = (
 				135AC0E3207A3A93000DAEC9 /* AppDelegate.swift */,
@@ -113,25 +113,25 @@
 				135AC0F2207A3A95000DAEC9 /* Info.plist */,
 				135AC0EA207A3A93000DAEC9 /* contacts.xcdatamodeld */,
 			);
-			path = contacts;
+			path = Contacts;
 			sourceTree = "<group>";
 		};
-		135AC0FA207A3A95000DAEC9 /* contactsTests */ = {
+		135AC0FA207A3A95000DAEC9 /* ContactsTests */ = {
 			isa = PBXGroup;
 			children = (
 				135AC0FB207A3A95000DAEC9 /* contactsTests.swift */,
 				135AC0FD207A3A95000DAEC9 /* Info.plist */,
 			);
-			path = contactsTests;
+			path = ContactsTests;
 			sourceTree = "<group>";
 		};
-		135AC105207A3A95000DAEC9 /* contactsUITests */ = {
+		135AC105207A3A95000DAEC9 /* ContactsUITests */ = {
 			isa = PBXGroup;
 			children = (
 				135AC106207A3A95000DAEC9 /* contactsUITests.swift */,
 				135AC108207A3A95000DAEC9 /* Info.plist */,
 			);
-			path = contactsUITests;
+			path = ContactsUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,7 +213,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 135AC0DB207A3A93000DAEC9 /* Build configuration list for PBXProject "contacts" */;
+			buildConfigurationList = 135AC0DB207A3A93000DAEC9 /* Build configuration list for PBXProject "Contacts" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -491,7 +491,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/contacts.app/contacts";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Contacts.temp_caseinsensitive_rename.app/Contacts.temp_caseinsensitive_rename";
 			};
 			name = Debug;
 		};
@@ -512,7 +512,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/contacts.app/contacts";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Contacts.temp_caseinsensitive_rename.app/Contacts.temp_caseinsensitive_rename";
 			};
 			name = Release;
 		};
@@ -559,7 +559,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		135AC0DB207A3A93000DAEC9 /* Build configuration list for PBXProject "contacts" */ = {
+		135AC0DB207A3A93000DAEC9 /* Build configuration list for PBXProject "Contacts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				135AC109207A3A95000DAEC9 /* Debug */,
